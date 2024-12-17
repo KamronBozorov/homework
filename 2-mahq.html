@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2-mashq</title>
+</head>
+<body style="font-family: Arial, Helvetica, sans-serif;">
+  <h1>Kontakt malumotlarini yuborish</h1>
+  <form action="">
+    <label for="number">Telefon raqamingiz:</label>
+    <br>
+    <input type="tel" name="" id="number" placeholder="Telefon raqamingiznni kiriting" required minlength="9">
+    <br><br>
+    <label for="manzil">Manzilingiz: </label>
+    <br>
+    <textarea name="" id="manzil" cols="50" rows="10" placeholder="To'liq malumotingizni kiriting"></textarea>
+    <br><br>
+    <label for="xabar">Xabaringiz: </label>
+    <br>
+    <textarea name="" id="xabar" cols="50" rows="10" placeholder="Xabaringizni buyerda yozing..."></textarea>
+    <br><br>
+    <label for="aloqaTuri">Siz bilan qanday aloqa qilishimizni xohlaysiz?</label>
+    <br>
+    <select id="aloqaTuri" name="aloqaTuri">
+      <option value="email">Email orqali</option>
+      <option value="telefon">Telefon orqali</option>
+      <option value="sms">SMS orqali</option>
+    </select>
+    <br><br>
+    <input type="submit" value="Xabarni yuborish">
+    <input type="reset" value="Tozalash">
+  </form>
+</body>
+</html>
